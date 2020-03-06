@@ -4,18 +4,30 @@
   margin: 0;
 }
 
+.container {
+  position: relative;
+  display: grid;
+  border: 2px solid red;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-item {
+  border: 1px solid blue;
+  /* height: 700px; */
+}
+
 .header {
   border: black 1px solid;
   width: 100%;
-  /* height: 20vh; */
+  height: 190px;
 }
 
 .navbar {
   width: 100%;
-  /* height: 20vh; */
   display: flex;
   padding: 10px;
   align-items: center;
+  height: 190px;
 }
 
 .navbar ul{
@@ -28,19 +40,118 @@
 .navbar ul li {
   list-style: none;
   border: 1px dashed blue;
-  /* height: 18vh; */
   width: 20%;
   margin: 0 10px;
   text-align: center;
 }
+
 .logo {
   width: 10%;
-  height: 20px;
+  height: 10px;
   border: 1px solid red;
 }
+
 .nav-btn{
   height: 20px;
   width: 200px;
   border: 1px green solid;
   margin: 20px;
+}
+
+.heading-1 {
+  position: absolute;
+  width: 400px;
+  height: 113px;
+  background-color: white;
+  top: 250px;
+  left: 450px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+ .latest-article {
+  width: 50%;
+  height: 518px;
+  float: left;
+}
+
+.latest-article .Author {
+  width: 50px;
+  height: 50px;
+  border: 1px solid gray;
+}
+
+.item-1 {
+  grid-column: 1/3;
+}
+.item-6 {
+  grid-column: 1/3;
+  display: flex;
+}
+
+.item-6 article, .item-8 article {
+  border: 1px solid black;
+  width: 40%;
+  height: 634px;
+
+}
+.item-7 {
+  grid-column: 1/3;
+  display: flex;
+}
+.item-7 article {
+  width: 50%;
+  border: 1px solid black;
+  height: 634px;
+}
+
+.item-8 {
+  grid-column: 1/3;
+  display: flex;
+}
+
+.item-9 {
+  grid-column: 1/3;
+  height: 645px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.item9-img {
+  width: 216px;
+  height: 216px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.item9-heading {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.item-10 {
+  grid-column: 1/3;
+}
+.item-11 {
+  grid-column: 1/3;
+}
+.item-18 {
+  grid-column: 1/3;
+}
+.item-19 {
+  grid-column: 1/3;
+}
+.item-20 {
+  grid-column: 1/3;
+}
+.item-23 {
+  grid-column: 1/3;
+}
+.item-24 {
+  grid-column: 1/3;
 }
