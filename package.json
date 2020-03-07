@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "This is a structure and typography of the smashing magazine web page",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PhillipUg/design-teardown.git"
@@ -13,9 +10,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PhillipUg/design-teardown/issues"
-  },
+  "bugs": {},
   "homepage": "https://github.com/PhillipUg/design-teardown#readme",
   "dependencies": {
     "stylelint": "^13.2.0",
