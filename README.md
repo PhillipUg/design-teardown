@@ -2,7 +2,7 @@
 This is a heatmap focusing on the structure and typography of the smashing magazine website
 <br>
 <br>
-<img src="assets/screen.png" width="500"> 
+<img src="assets/screen.png" width="700"> 
 <br>
 
 In this project, our aim was to tear down the design of the [smashing magazine](https://www.smashingmagazine.com/) website with a focus on highlighting its overall structure and typography.
