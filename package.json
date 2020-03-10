@@ -1,0 +1,19 @@
+{
+  "name": "design-teardown",
+  "version": "1.0.0",
+  "description": "This is a structure and typography of the smashing magazine web page",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhillipUg/design-teardown.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {},
+  "homepage": "https://github.com/PhillipUg/design-teardown#readme",
+  "dependencies": {
+    "stylelint": "^13.2.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
