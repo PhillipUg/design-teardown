@@ -142,9 +142,6 @@ body {
   background-color: #444;
 }
 
-
-/* styles for Top article  */
-
 .top-article {
   margin: 0;
   padding: 20px 40px 20px 50px;
@@ -412,8 +409,6 @@ body {
 
 .item24-top ul li {
   display: inline-block;
-
-  /* margin: 10px; */
   justify-content: center;
   font-size: 24px;
   font-family: 'Slabo 27px', serif;
@@ -426,8 +421,6 @@ body {
 .item24-bottom div {
   flex: 1;
 }
-
-/* style user-photo */
 
 .user-photo {
   height: 70px;
@@ -456,9 +449,6 @@ body {
   height: 200px;
   width: 200px;
 }
-
-
-/* style for articles */
 
 .article {
   flex: 1;
@@ -508,7 +498,6 @@ body {
   display: block;
 }
 
-/* style for arrow */
 .arrow {
   font-size: 30px;
   position: absolute;
@@ -520,7 +509,6 @@ body {
   text-align: center;
 }
 
-/* styles for buttons */
 .btn {
   font-family: "Nunito", sans-serif;
   padding: 15px 19px;
@@ -532,8 +520,6 @@ body {
   background-color: #fff;
   color: black;
 }
-
-/* Style for the links */
 
 .links {
   margin: 40px;
